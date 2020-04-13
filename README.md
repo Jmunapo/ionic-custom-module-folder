@@ -31,7 +31,7 @@ In ` src/app/app-routing.module.ts ` add this section
 
 ##### Then
 
-- In IONIC 4+ sub-folder `git clone https://github.com/Jmunapo/ionic-custom-module-folder.git ./custom`
+- In [IONIC](https://ionicframework.com/docs) PATH/TO/YOUR/PROJECT/FOLDER/src/app `git clone https://github.com/Jmunapo/ionic-custom-module-folder.git ./custom`
 - Rename `folder_name(custom) => 'your-module'` (optional)
 - Rename `custom-routing.module.ts ==> 'your-module'-routing.module.ts
 - Rename `custom.module.ts ==> 'your-module'-.module.ts
