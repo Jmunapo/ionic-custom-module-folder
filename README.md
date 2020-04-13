@@ -28,12 +28,13 @@ In ` src/app/app-routing.module.ts ` add this section
         ...
     ]
 ```
+
 Then:
-    * In IONIC 4+ sub-folder `git clone https://github.com/Jmunapo/ionic-custom-module-folder.git ./custom`
-    * Rename `folder_name(ionic-custom-module-folder) => 'your-module'`
-    * Rename `custom-routing.module.ts ==> 'your-module'-routing.module.ts
-    * Rename `custom.module.ts ==> 'your-module'-.module.ts
-    * run `ionic g page 'you-module'/page1
+    - In IONIC 4+ sub-folder `git clone https://github.com/Jmunapo/ionic-custom-module-folder.git ./custom`
+    - Rename `folder_name(ionic-custom-module-folder) => 'your-module'`
+    - Rename `custom-routing.module.ts ==> 'your-module'-routing.module.ts
+    - Rename `custom.module.ts ==> 'your-module'-.module.ts
+    - run `ionic g page 'you-module'/page1
 
 License MIT
 
