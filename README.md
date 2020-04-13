@@ -38,4 +38,4 @@ License MIT
 
 You have an App Idea? I would ❤️ to bring it to life.
 
-Send me an email [Joemags joemags.apps@gmail.com](mailto:joemags.apps@gmail.com?subject=[GitHub]%20I%20Have%20an%20Ide)
+Send me an email [Joemags joemags.apps@gmail.com](mailto:joemags.apps@gmail.com?subject=[GitHub]%20I%20Have%20an%20Idea)
