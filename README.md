@@ -16,8 +16,8 @@ A quick project to create a custom module folder to hold all your module pages w
     -module.ts
 
 #### How To
-    * In `src/app/app-routing.module.ts` add
-    ```JS
+In ` src/app/app-routing.module.ts ` add this section
+    ```js
        const routes: Routes = [
             ...,
             {
@@ -28,7 +28,7 @@ A quick project to create a custom module folder to hold all your module pages w
             ...
        ]
     ```
-    * In IONIC 4+ sub-folder `git clone https://github.com/Jmunapo/ionic-custom-module-folder.git`
+    * In IONIC 4+ sub-folder `git clone https://github.com/Jmunapo/ionic-custom-module-folder.git ./custom`
     * rename `folder_name(ionic-custom-module-folder) => 'your-module'`
     * rename `custom-routing.module.ts ==> 'your-module'-routing.module.ts
     * rename `custom.module.ts ==> 'your-module'-.module.ts
