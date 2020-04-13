@@ -17,21 +17,22 @@ A quick project to create a custom module folder to hold all your module pages w
 
 #### How To
 In ` src/app/app-routing.module.ts ` add this section
-    ```js
-       const routes: Routes = [
-            ...,
-            {
-                path: 'custom',
-                loadChildren: () =>
-                import('./custom/custom.module').then(m => m.CustomModule)
-            },
-            ...
-       ]
-    ```
+```js
+    const routes: Routes = [
+        ...,
+        {
+            path: 'custom',
+            loadChildren: () =>
+            import('./custom/custom.module').then(m => m.CustomModule)
+        },
+        ...
+    ]
+```
+Then:
     * In IONIC 4+ sub-folder `git clone https://github.com/Jmunapo/ionic-custom-module-folder.git ./custom`
-    * rename `folder_name(ionic-custom-module-folder) => 'your-module'`
-    * rename `custom-routing.module.ts ==> 'your-module'-routing.module.ts
-    * rename `custom.module.ts ==> 'your-module'-.module.ts
+    * Rename `folder_name(ionic-custom-module-folder) => 'your-module'`
+    * Rename `custom-routing.module.ts ==> 'your-module'-routing.module.ts
+    * Rename `custom.module.ts ==> 'your-module'-.module.ts
     * run `ionic g page 'you-module'/page1
 
 License MIT
